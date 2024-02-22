@@ -1,11 +1,26 @@
 ---
-title: "feaster-lab.github.io"
+title: ""
+format: 
+  html:
+    page-layout: full
+    embed-resources: true
+theme:
+  # - cosmo
+  - layout-styles.scss
 ---
 
-This is a Quarto website.
+<!------------------------------------------------------------->
+<!----- start hero panel -------->
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+```{=html}
+<!-- Using raw html here is the path of least resistance for creating the hero panel. You only need a container div holding the image and some text. If your text has more than one line (like this one will), wrap the text in its own div -->
+<div class="hero-panel column-screen">
+  <img class="banner" src="banner.jpg" alt="Banner Image">
+  <div class="banner-txt">
+    <h1>Learning Quarto Layout Tricks</h1>
+    <h3>This is the hero panel</h3>
+  </div>
+</div>
 ```
+<!----- end hero panel ---------->
+<!------------------------------------------------------------->
