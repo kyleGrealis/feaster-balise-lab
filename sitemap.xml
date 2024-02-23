@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kyleGrealis.github.io/feaster-lab.github.io/index.html</loc>
-    <lastmod>2024-02-22T23:04:13.763Z</lastmod>
+    <loc>https://kyleGrealis.github.io/feaster-balise-lab/people.html</loc>
+    <lastmod>2024-02-23T05:35:37.272Z</lastmod>
   </url>
   <url>
-    <loc>https://kyleGrealis.github.io/feaster-lab.github.io/about.html</loc>
-    <lastmod>2024-02-22T23:04:13.763Z</lastmod>
+    <loc>https://kyleGrealis.github.io/feaster-balise-lab/index.html</loc>
+    <lastmod>2024-02-23T05:35:37.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyleGrealis.github.io/feaster-balise-lab/products.html</loc>
+    <lastmod>2024-02-23T05:35:37.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyleGrealis.github.io/feaster-balise-lab/projects.html</loc>
+    <lastmod>2024-02-23T05:35:37.272Z</lastmod>
   </url>
 </urlset>
