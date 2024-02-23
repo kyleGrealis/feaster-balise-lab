@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Feaster & Balise Lab"
-  favicon: /static/images/favicon.ico
+  favicon: /static/favicon.ico
   
   navbar:
     right:
