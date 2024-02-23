@@ -1,28 +1,25 @@
 /*-- scss:defaults --*/
-// Load "Poppins" font from Google
-// declare the font you want|then+another|and+then+another
 @import url("https://fonts.googleapis.com/css?family=Poppins|Georgia|Source+Sans+Pro|Merriweather");
 
-// First call the default color
+// Colors ---------------------------------------------------------------
 $gray-400: #ced4da;
 $gray-700: #495057;
-// Then use that color
 
 $primary: #005030;
 $secondary: #f47321;
-$tertiary: lightblue;
+$bright: #f1f1f1;
 
-// Page text color
-$body-color: $gray-700;  // If you were to use this without first setting the value of $gray-700, you will receive "Error: Undefined variable."
-// Code block background color
-$code-block-bg: $secondary;
-// Background color of inline code
-$code-bg: $tertiary;
-// Color of inline code
-$code-color: $primary;
+$bg-dark-shadow: 1px 1px 1px gray;
+$bg-light-shadow: 1px 1px 1px #c0c0c0;
 
+// Quarto defaults -------------------------------------------------------
+$navbar-bg: $primary;     // navbar background
+$navbar-fg: $bright;      // navbar text
+$content-padding-top: 0;  // remove padding between navbar and hero panel
+$body-color: $gray-700;   // page text color
+$btn-color: $bright;      // button text color
 
-// Main font font family... best to use multiple
+// Main font font family
 $font-family-sans-serif: "Open Sans", "Poppins", "Cambria", "Georgia", "serif";
 // Monospace font family
 $font-family-monospace: "Noto Sans Mono", "Source Code Pro", "Courrier New", "mono-space";
@@ -32,23 +29,67 @@ $font-size-base: 1.1rem; // increasing default by 10%; 1rem = default value
 
 
 /*-- scss:rules --*/
+.navbar {
+  border-bottom: 1px solid $gray-700;
+}
+
 
 // Set up the hero panel
 .hero-panel {
-  // This is required. Think of it like a family unit where they are "relative"s
   position: relative;
+  margin: -20px 0px 20px;    // move the panel up to remove whitespace
+  background-color: $gray-700;
   
   img.banner {
+    left: 0;
     width: 100%;
-    height: 350px;
+    height: 70vh;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 90%; // moves the focus up 10% from the bottom
+    filter: brightness(50%) blur(3px);
   }
   
   .banner-txt {
-    // To make this text appear on top of the banner image and not below it, "position: absolute" is paired with the "position: relative" from the .hero-panel because this child element is "absolutely related" <- this isn't really how it's talked about but helped me to understand this little nuanced behavior with moving pieces on top of others.
     position: absolute;
     left: 5%;
-    bottom: 20%;
+    bottom: 40%;
     color: white;
     font-weight: bold;
+    
+    h1 {
+      color: $bright;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      text-shadow: $bg-dark-shadow;
+    }
+    
+    h3 {
+      color: #d8d8d8;
+      font-size: 2rem;
+      font-weight: 200;
+      margin-top: 1rem;
+    }
+  }
+}
+
+
+// Button group on index.qmd
+.btn-grp {
+  display: flex;
+  justify-content: space-evenly;
+  
+  .btn {
+    min-width: 235px;
+    background-color: $primary;
+    
+    &:hover {
+      color: $secondary;
+    }
+  }
+  
+  .btn-charm, .btn-node, .btn-idea {
+    border: 1px solid $gray-700;
   }
 }
