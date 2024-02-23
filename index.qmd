@@ -4,9 +4,7 @@ format:
   html:
     page-layout: full
     embed-resources: true
-theme:
-  # - cosmo
-  - layout-styles.scss
+theme: styles.scss
 ---
 
 <!------------------------------------------------------------->
@@ -15,12 +13,29 @@ theme:
 ```{=html}
 <!-- Using raw html here is the path of least resistance for creating the hero panel. You only need a container div holding the image and some text. If your text has more than one line (like this one will), wrap the text in its own div -->
 <div class="hero-panel column-screen">
-  <img class="banner" src="banner.jpg" alt="Banner Image">
+  <img class="banner" src="/static/home-page/hero-image.jpg" alt="Banner Image">
   <div class="banner-txt">
-    <h1>Learning Quarto Layout Tricks</h1>
-    <h3>This is the hero panel</h3>
+    <h1>Biobehavioral Statistics and Data Science</h1>
+    <h3>Feaster and Balise Lab</h3>
   </div>
 </div>
 ```
 <!----- end hero panel ---------->
+<!------------------------------------------------------------->
+
+
+<!------------------------------------------------------------->
+<!----- start project buttons -------->
+::: { .btn-grp }
+
+<!-- add people-roof -->
+[CHARM Methods Core](https://charm.miami.edu/index.html){.btn .btn-charm target="_blank"}
+<!-- add prescription-bottle -->
+[Florida Node Alliance](https://www.publichealth.med.miami.edu/research/research-centers/florida-node-alliance-fna/about-the-fna/index.html){.btn .btn-node target="_blank"}
+<!-- add syringe -->
+[IDEA Exchange](https://ideaexchangeflorida.org){.btn .btn-idea target="_blank"}
+
+:::
+
+<!----- end project buttons ---------->
 <!------------------------------------------------------------->
