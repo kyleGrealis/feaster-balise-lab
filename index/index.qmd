@@ -1,0 +1,246 @@
+---
+title: ""
+format: 
+  html:
+    page-layout: custom
+    embed-resources: true
+---
+
+<!----- start hero panel -------->
+
+```{=html}
+<!-- Using raw html here is the path of least resistance for creating the hero panel. You only need a container div holding the image and some text. If your text has more than one line (like this one will), wrap the text in its own div -->
+<div class="hero-panel column-screen">
+  <img class="banner" src="/static/home-page/hero-image.jpg" alt="Banner Image">
+  <div class="banner-txt">
+    <h1>Biobehavioral Statistics and Data Science</h1>
+    <h3>Feaster and Balise Lab</h3>
+  </div>
+</div>
+```
+
+
+
+<!----- start project buttons -------->
+
+```{r}
+#| echo: false
+
+# using shiny functions here to generate a nice button with FontAwesome icons
+library(shiny)
+tile <- function(tile_icon, tile_title, href) {
+  tags$a(
+    href = href, target = "_blank",
+    div(
+      class = "home-tile",
+      shiny::icon(tile_icon, class = "home-tile-icon"),
+      tags$h5(tile_title)
+    )
+  )
+}
+```
+
+```{r}
+#| echo: false
+tags$div(
+  class = "btn-grp",
+  tile(
+    "people-roof", "CHARM Methods Core",
+    href = "https://charm.miami.edu/index.html"
+  ),
+  
+  tile(
+    "prescription-bottle", "Florida Node Alliance",
+    href = "https://www.publichealth.med.miami.edu/research/research-centers/florida-node-alliance-fna/about-the-fna/index.html"
+  ),
+  
+  tile(
+    "syringe", "IDEA Exchange",
+    href = "https://ideaexchangeflorida.org/"
+  )
+)
+```
+
+
+<!----- start people section -------->
+::: { .home-wrapper }
+
+::: { .image-wrapper }
+
+![](../static/home-page/meet-the-team-pic.jpeg)
+
+:::
+
+::: { .card-info }
+
+## Meet the Team
+
+With domain expertise in Substance Abuse, HIV/AIDS, and Cancer Research, our team is at the forefront of applied statistical analysis, machine learning, and data science.
+
+[Learn about our people >>](../people/index.qmd)
+
+:::
+
+:::
+
+
+
+<!----- start projects -------->
+::: { .home-wrapper }
+
+::: { .card-info }
+
+## Biostatistics
+
+We are leaders in logitudinal analysis, structural equation modeling, survival analysis, random forest, and cutting edge machine learning methodologies.
+
+[Learn about our projects >>](../projects/index.qmd)
+
+:::
+
+::: { .image-wrapper }
+
+![](../static/home-page/biostatistics-pic.jpeg)
+:::
+
+:::
+
+
+
+<!----- start products -------->
+::: { .home-wrapper }
+
+::: { .image-wrapper }
+
+![](../static/home-page/data-science-pic.jpeg)
+
+:::
+
+::: { .card-info }
+
+## Data Science
+
+We speak R, Python, SQL, Julia, and SAS. We design interactive visualizations and web applications, produce reproducible paramterized reports, create practical R packages to help understand our world, and build data pipelines.
+
+[Learn about our products](../products/index.qmd)
+:::
+
+:::
+
+<!------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------->
+<!----- start footer -------->
+```{r}
+#| echo: false
+div(
+  class = "footer",
+  div(
+    class = "footer-top",
+    div(
+      class = "footer-column footer-column-logo", 
+      tags$a(
+        href = "http://welcome.miami.edu",
+        tags$img(src = "../static/footer-logo.png", height = "100px", class = "footer-logo"),
+        target = "_blank"
+      )
+    ),
+    div(
+      class = "footer-column footer-column-1", 
+      tags$h5("University of Miami"),
+      tags$h5("Department of Public Health Sciences"),
+      tags$h6("Leonard M. Miller School of Medicine"),
+      tags$h6("1120 NW 14th Street #905"),
+      tags$h6("Miami, FL 33136"),
+      tags$p("305-243-0291"),
+    ),
+    
+    div(
+      class = "footer-column footer-column-2", 
+      tags$h5("Quick Links"),
+      div(
+        tags$a(
+          href = "../products/index.qmd", 
+          "Research Tools", 
+          target = "_blank"
+        )
+      ),
+      div(
+        tags$a(
+          href = "../products/index.qmd",
+          "Package Development", 
+          target = "_blank"
+        )
+      ),
+    ),
+    
+    div(
+      class = "footer-column footer-column-3",
+      tags$h5("UM Network"),
+      div(
+        tags$a(
+          href = "https://operations.miami.edu/index.html", 
+          "University Operations and External Affairs", 
+          target = "_blank"
+        )
+      ),
+      div(
+        tags$a(
+          href = "http://ucomm.miami.edu/", 
+          "University Communications", 
+          target = "_blank"
+        ) 
+      ),
+      div(
+        tags$a(
+          href = "http://gcr.miami.edu/", 
+          "Government and Community Relations", 
+          target = "_blank"
+        )
+      ),
+      div(
+        tags$a(
+          href = "http://news.miami.edu/", 
+          "News and Events", 
+          target = "_blank"
+        )
+      ),
+      div(
+        tags$a(
+          href = "http://webcomm.miami.edu/", 
+          "Web and Digital",
+          target = "_blank"
+        )
+      )
+    ),
+    div(
+      class = "footer-column footer-column-4",
+      tags$h5("More at UM"),
+      div(tags$a(href = "http://welcome.miami.edu", "University of Miami", target = "_blank")),
+      div(tags$a(href = "http://president.miami.edu", "Office of the President", target = "_blank")),
+      div(tags$a(href = "http://trustees.miami.edu", "Board of Trustees", target = "_blank")),
+      tags$br(),
+      tags$h5("Connect"),
+      tags$div(
+        class = "social-media",
+        tags$a(href = "https://www.facebook.com/UniversityofMiami", icon("square-facebook", lib = "font-awesome"), target = "_blank"),
+        tags$a(href = "https://twitter.com/univmiami", icon("square-twitter", lib = "font-awesome"), target = "_blank"),
+        tags$a(href = "https://www.youtube.com/user/universityofmiami", icon("square-youtube", lib = "font-awesome"), target = "_blank"),
+        tags$a(href = "https://www.instagram.com/univmiami/", icon("square-instagram", lib = "font-awesome"), target = "_blank"),
+      )
+    )
+  ),
+  div(
+    class = "footer-bottom",
+    tags$div(
+      tags$span("\u00A9 2024 University of Miami. All Rights Reserved."),
+      tags$span(" | "),
+      tags$a(href = "http://miami.edu/prepare/", "Emergency Information", target = "_blank"),
+      tags$span(" | "),
+      tags$a(href = "https://welcome.miami.edu/privacy-and-legal/index.html", "Privacy Statement & Legal Notices", target = "_blank"),
+    )
+  )
+)
+```
