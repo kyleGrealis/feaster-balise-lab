@@ -11,7 +11,7 @@ format:
 ```{=html}
 <!-- Using raw html here is the path of least resistance for creating the hero panel. You only need a container div holding the image and some text. If your text has more than one line (like this one will), wrap the text in its own div -->
 <div class="hero-panel column-screen">
-  <img class="banner" src="/static/home-page/hero-image.jpg" alt="Banner Image">
+  <img class="banner" src="hero-image.jpg" alt="Banner Image">
   <div class="banner-txt">
     <h1>Biobehavioral Statistics and Data Science</h1>
     <h3>Feaster and Balise Lab</h3>
@@ -67,7 +67,7 @@ tags$div(
 
 ::: { .image-wrapper }
 
-![](../static/home-page/meet-the-team-pic.jpeg)
+![](meet-the-team-pic.jpeg)
 
 :::
 
@@ -100,7 +100,7 @@ We are leaders in logitudinal analysis, structural equation modeling, survival a
 
 ::: { .image-wrapper }
 
-![](../static/home-page/biostatistics-pic.jpeg)
+![](biostatistics-pic.jpeg)
 :::
 
 :::
@@ -112,7 +112,7 @@ We are leaders in logitudinal analysis, structural equation modeling, survival a
 
 ::: { .image-wrapper }
 
-![](../static/home-page/data-science-pic.jpeg)
+![](data-science-pic.jpeg)
 
 :::
 
