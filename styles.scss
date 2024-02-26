@@ -8,6 +8,7 @@ $gray-700: #495057;
 $primary: #005030;
 $secondary: #f47321;
 $bright: #f1f1f1;
+$footer: #63707b;
 
 $bg-dark-shadow: 1px 1px 1px gray;
 $bg-light-shadow: 1px 1px 1px #c0c0c0;
@@ -31,6 +32,8 @@ $content-padding-top: 0;  // remove padding between navbar and hero panel
 $body-bg: #e7e7e7;
 $body-color: $gray-700;   // page text color
 $btn-color: $bright;      // button text color
+$footer-bg: $footer;
+$footer-fg: white;
 
 // Main font font family
 $font-family-sans-serif: "Open Sans", "Poppins", "Cambria", "Georgia", "serif";
@@ -46,6 +49,10 @@ $font-size-base: 1.1rem; // increasing default by 10%; 1rem = default value
 
 .navbar {
   border-bottom: 1px solid $gray-700;
+  
+  .navbar-title {
+    font-size: 1.1em;
+  }
 }
 
 
@@ -152,8 +159,8 @@ div.btn-grp {
   justify-content: center;
   align-items: center;
   padding: 20px 30px 30px;
-  margin-top: 30px;
-  width: 100%;
+  margin: 30px auto 0px;
+  max-width: 1550px;
   border-bottom: 1px solid gray;
   
   @media screen and (max-width: 700px) {
@@ -237,15 +244,23 @@ div.btn-grp {
       }
     }
   } // .card-info
+} 
+.special-card {
+  border-bottom: none;
 } // .home-wrapper
 
+
+
+
+
 // Home page footer
-.footer {
+.um-footer {
   display: grid;
   grid-template-rows: auto auto;
   padding: 10px;
-  background-color: #63707b;
+  background-color: $footer;
   color: #ffffff;
+  font-size: 14px;
   
   .footer-top {
     display: grid;
