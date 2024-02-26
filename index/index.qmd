@@ -108,7 +108,7 @@ We are leaders in logitudinal analysis, structural equation modeling, survival a
 
 
 <!----- start products -------->
-::: { .home-wrapper }
+::: { .home-wrapper .special-card }
 
 ::: { .image-wrapper }
 
@@ -122,7 +122,7 @@ We are leaders in logitudinal analysis, structural equation modeling, survival a
 
 We speak R, Python, SQL, Julia, and SAS. We design interactive visualizations and web applications, produce reproducible paramterized reports, create practical R packages to help understand our world, and build data pipelines.
 
-[Learn about our products](../products/index.qmd)
+[Learn about our products >>](../products/index.qmd)
 :::
 
 :::
@@ -136,7 +136,7 @@ We speak R, Python, SQL, Julia, and SAS. We design interactive visualizations an
 ```{r}
 #| echo: false
 div(
-  class = "footer",
+  class = "um-footer",
   div(
     class = "footer-top",
     div(
@@ -151,10 +151,12 @@ div(
       class = "footer-column footer-column-1", 
       tags$h5("University of Miami"),
       tags$h5("Department of Public Health Sciences"),
-      tags$h6("Leonard M. Miller School of Medicine"),
-      tags$h6("1120 NW 14th Street #905"),
-      tags$h6("Miami, FL 33136"),
-      tags$p("305-243-0291"),
+      tags$p(
+        "Leonard M. Miller School of Medicine", br(),
+        "1120 NW 14th Street #905", br(),
+        "Miami, FL 33136", br(),
+        "305-243-0291"
+      )
     ),
     
     div(
