@@ -1,19 +1,24 @@
 project:
   type: website
+  output-dir: docs
+  preview:
+    port: 7209
 
 website:
   title: "Feaster & Balise Lab"
   favicon: /static/favicon.ico
+  back-to-top-navigation: true
   
   navbar:
     right:
-      - href: index.qmd
+    # using the folder/index.qmd method displays nicer in the browser bar :)
+      - href: index/index.qmd
         text: Home
-      - href: people.qmd
+      - href: people/index.qmd
         text: People
-      - href: projects.qmd
+      - href: projects/index.qmd
         text: Projects
-      - href: products.qmd
+      - href: products/index.qmd
         text: Products
 
 format:
