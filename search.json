@@ -1,30 +1,44 @@
 [
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "index/index.html#meet-the-team",
+    "href": "index/index.html#meet-the-team",
+    "title": "Feaster & Balise Lab",
+    "section": "Meet the Team",
+    "text": "Meet the Team\nWith domain expertise in Substance Abuse, HIV/AIDS, and Cancer Research, our team is at the forefront of applied statistical analysis, machine learning, and data science.\nLearn about our people &gt;&gt;"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Biobehavioral Statistics and Data Science",
-    "section": "",
-    "text": "Biobehavioral Statistics and Data Science\n    Feaster and Balise Lab\n  \n\n\n\n\n\n\n\nCHARM Methods Core  Florida Node Alliance  IDEA Exchange"
+    "objectID": "index/index.html#biostatistics",
+    "href": "index/index.html#biostatistics",
+    "title": "Feaster & Balise Lab",
+    "section": "Biostatistics",
+    "text": "Biostatistics\nWe are leaders in logitudinal analysis, structural equation modeling, survival analysis, random forest, and cutting edge machine learning methodologies.\nLearn about our projects &gt;&gt;"
   },
   {
-    "objectID": "products.html",
-    "href": "products.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "index/index.html#data-science",
+    "href": "index/index.html#data-science",
+    "title": "Feaster & Balise Lab",
+    "section": "Data Science",
+    "text": "Data Science\nWe speak R, Python, SQL, Julia, and SAS. We design interactive visualizations and web applications, produce reproducible paramterized reports, create practical R packages to help understand our world, and build data pipelines.\nLearn about our products"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "products/index.html",
+    "href": "products/index.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
   }
 ]
