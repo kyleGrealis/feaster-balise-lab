@@ -210,7 +210,7 @@ body {
   
     h2 {
       font-weight: 600;
-      font-size: 2.5vw;
+      font-size: 2vw;
       color: #333333;
       text-shadow: $bg-light-shadow;
       border-bottom: none; // Quarto puts border bottom by default
@@ -237,7 +237,7 @@ body {
 
 
 
-// Projects page -------------------------------------------------------
+// Products page -------------------------------------------------------
 div.img-text {
   display: flex;
   align-items: center;
@@ -248,8 +248,8 @@ div.img-text {
   }
   
   &:hover {
-    img {
-      box-shadow: 1px 1px 8px 3px #9e9e9e;
+    .img-group img {
+      box-shadow: 1px 1px 8px 4px #9e9e9e;
     }
   }
   
