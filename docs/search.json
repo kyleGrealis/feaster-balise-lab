@@ -14,25 +14,11 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "products/index.html",
-    "href": "products/index.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "index/index.html#meet-the-team",
     "href": "index/index.html#meet-the-team",
     "title": "Feaster & Balise Lab",
     "section": "Meet the Team",
     "text": "Meet the Team\nWith domain expertise in Substance Abuse, HIV/AIDS, and Cancer Research, our team is at the forefront of applied statistical analysis, machine learning, and data science.\nLearn about our people &gt;&gt;"
-  },
-  {
-    "objectID": "index/index.html",
-    "href": "index/index.html",
-    "title": "Biobehavioral Statistics and Data Science",
-    "section": "",
-    "text": "CHARM Methods Core\n\n\n\n\n\nFlorida Node Alliance\n\n\n\n\n\nIDEA Exchange"
   },
   {
     "objectID": "index/index.html#biostatistics",
@@ -47,5 +33,12 @@
     "title": "Feaster & Balise Lab",
     "section": "Data Science",
     "text": "Data Science\nWe speak R, Python, SQL, Julia, and SAS. We design interactive visualizations and web applications, produce reproducible paramterized reports, create practical R packages to help understand our world, and build data pipelines.\nLearn about our products &gt;&gt;"
+  },
+  {
+    "objectID": "products/index.html",
+    "href": "products/index.html",
+    "title": "Feaster & Balise Lab",
+    "section": "",
+    "text": "RESEARCH TOOLS\n\n\n\n\n\n\n\nSCAN 360\nSCAN 360 is a web application that provides 360\\(^\\circ\\) view of factors contributing to cancer risk where you live.\n\nSCAN 360\n\n\n\n\n\n\n\n\n\n\n\nHCS Mapping Tool\nThe HCS Mapping Tool is a web application to overlay local count and rate data onto a map of communities participating in the Healthy Community Study.\n\nHCS Mapping Tool\n\n\n\n\n\n\n\n\n\n\n\nNeighborhood Profiles\nThe Neighborhood Profiles is a web application to retrieve up-to-date demographic, economic, insurance, and disability information from the American Community Survey for neighborhoods in Miami-Dade County.\n\nNeighborhood Profiles\n\n\n\n\n\n\n\n\n\n\n\nPublic Disposal\nThe Public Disposal is an interactive Tableau dashboard showing locations of public disposal boxes for controlled substances in New York.\n\nPublic Disposal\n\n\n\n\n\n\n\nTUTORIALS\n\n\n\n\n\n\n\n\nSlides Derailment\n\n\n\n\nReproducible Research\nThis is a tutorial with instructions on how to conduct reproducible research including configuring your machine for data science.\n\nWatch Video\n\n\n\n\n\n\n\nPACKAGE DEVELOPMENT\n\n\n\n\n\n\n\nrUM\nrUM is an R package for structuring reproducible academic manuscripts within a new RStudio project. Compose journal-worthy articles in either Quarto or RMarkdown and code your results into the analysis.\n\nDownload Package\n\n\n\n\n\n\n\n\n\n\n\nDOPE\nDOPE is an R package to provide a structured vocabulary and look up details on drugs tracked by the DEA.\n\nDownload Package\n\n\n\n\n\n\n\n\n\n\n\ntidyREDCap\ntidyREDCap is an R package with functions for processing REDCap data. REDCap (Research Electronic Data CAPture) is a web-enabled application for building and managing surveys and databases developed at Vanderbilt University.\n\nDownload Package\n\n\n\n\n\n\n\n\n\n\n\nCTNote\nCTNote is an R package that exists as a comprehensive implementation of outcomes, treatments, and endpoints used in clinical trials to evaluate the efficacy of medication-assisted treatment of substance use disorders (SUDs).\n\nDownload Package\n\n\n\n\n\n\n\n\n\n\n\npublic.ctn0094data\npublic.ctn0094data is an R package of harmonized/normalized data sets produced as part of the Clinical Trials Network (CTN) protocol number 0094. The data describe the experiences of care seeking individuals suffering from opioid use disorder (OUD). This is a US National Institute of Drug Abuse (NIDA) funded project; to learn more go to https://ctnlibrary.org/protocol/ctn0094/.\n\nDownload Package\n\n\n\n\n\n\n\n\n\n\n\npublic.ctn0094extra\npublic.ctn0094extra is an R package containing helper functions for the CTN-0094 data package public.ctn0094data and supplemental engineered / derived data sets.\n\nDownload Package\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]

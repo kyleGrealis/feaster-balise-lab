@@ -1,9 +1,312 @@
 ---
-title: "About"
+title: ""
+format:
+  html: 
+    page-layout: full
 ---
 
-About this site
+### RESEARCH TOOLS
 
-```{r}
-1 + 1
-```
+---
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/scan360.jpg)
+
+:::
+
+::: { .text-grp }
+
+### SCAN 360
+
+SCAN 360 is a web application that provides 360$^\circ$ view of factors contributing to cancer risk where you live.
+
+::: { .cntr-btn }
+[SCAN 360](https://www.scan360.com){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/hcs-mapping-tool.png)
+
+:::
+
+::: { .text-grp }
+
+### HCS Mapping Tool
+
+The HCS Mapping Tool is a web application to overlay local count and rate data onto a map of communities participating in the Healthy Community Study.
+
+::: { .cntr-btn }
+[HCS Mapping Tool](https://balise.shinyapps.io/HcsMappingTool/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/neighborhood.png)
+
+:::
+
+::: { .text-grp }
+
+### Neighborhood Profiles
+
+The Neighborhood Profiles is a web application to retrieve up-to-date demographic, economic, insurance, and disability information from the American Community Survey for neighborhoods in Miami-Dade County.
+
+::: { .cntr-btn }
+[Neighborhood Profiles](https://wdefreit.shinyapps.io/profileapp/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/disposal.png)
+
+:::
+
+::: { .text-grp }
+
+### Public Disposal
+
+The Public Disposal is an interactive Tableau dashboard showing locations of public disposal boxes for controlled substances in New York.
+
+::: { .cntr-btn }
+[Public Disposal](https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+### TUTORIALS
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+<!-- This is the container for the image and buttons container -->
+::: { .img-group }
+![](images/reproducible.png)
+
+<!-- This is the container for the buttons -->
+::: { .btn-grp }
+<a href="https://distracted-poitras-2e23ff.netlify.app/#1" target="_blank" class="btn">Slides</a>
+<a href="https://derailment.netlify.app/" target="_blank" class="btn">Derailment</a>
+:::
+
+:::
+
+<!-- This is the container for the text group. It will have normal prose and some lorem text created within the code block. -->
+::: { .text-grp }
+
+### Reproducible Research
+
+This is a tutorial with instructions on how to conduct reproducible research including configuring your machine for data science.
+
+::: { .cntr-btn }
+[Watch Video](https://vimeo.com/585821837){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+### PACKAGE DEVELOPMENT
+---
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/rUM.png)
+
+:::
+
+::: { .text-grp }
+
+### rUM
+
+**rUM** is an R package for structuring reproducible academic manuscripts within a new RStudio project. Compose journal-worthy articles in either Quarto or RMarkdown and code your results into the analysis.
+
+::: { .cntr-btn }
+[Download Package](https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/dope.png)
+
+:::
+
+::: { .text-grp }
+
+### DOPE
+
+**DOPE** is an R package to provide a structured vocabulary and look up details on drugs tracked by the DEA.
+
+::: { .cntr-btn }
+[Download Package](https://ctn-0094.github.io/DOPE/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/tidyredcap.png)
+
+:::
+
+::: { .text-grp }
+
+### tidyREDCap
+
+**tidyREDCap** is an R package with functions for processing REDCap data. [REDCap (Research Electronic Data CAPture)](https://projectredcap.org) is a web-enabled application for building and managing surveys and databases developed at Vanderbilt University.
+
+::: { .cntr-btn }
+[Download Package](https://raymondbalise.github.io/tidyREDCap/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/ctnote.png)
+
+:::
+
+::: { .text-grp }
+
+### CTNote
+
+**CTNote** is an R package that exists as a comprehensive implementation of outcomes, treatments, and endpoints used in clinical trials to evaluate the efficacy of medication-assisted treatment of substance use disorders (SUDs).
+
+::: { .cntr-btn }
+[Download Package](https://ctn-0094.github.io/CTNote/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/ctn0094data.png)
+
+:::
+
+::: { .text-grp }
+
+### public.ctn0094data
+
+**public.ctn0094data** is an R package of harmonized/normalized data sets produced as part of the Clinical Trials Network (CTN) protocol number 0094. The data describe the experiences of care seeking individuals suffering from opioid use disorder (OUD). This is a US National Institute of Drug Abuse (NIDA) funded project; to learn more go to [https://ctnlibrary.org/protocol/ctn0094/](https://ctnlibrary.org/protocol/ctn0094/). 
+
+::: { .cntr-btn }
+[Download Package](https://ctn-0094.github.io/public.ctn0094data/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+<!------------------------------------------------------------->
+::: { .img-text }
+
+::: { .img-group }
+![](images/ctn0094extra.png)
+
+:::
+
+::: { .text-grp }
+
+### public.ctn0094extra
+
+**public.ctn0094extra** is an R package containing helper functions for the CTN-0094 data package public.ctn0094data and supplemental engineered / derived data sets.
+
+::: { .cntr-btn }
+[Download Package](https://ctn-0094.github.io/public.ctn0094data/){target="_blank" .btn}
+:::
+
+:::
+
+:::
+<!------------------------------------------------------------->
+---
+
+
+
+
