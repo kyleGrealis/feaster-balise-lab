@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Feaster &amp; Balise Lab - About</title>
+<title>Feaster &amp; Balise Lab -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -102,6 +68,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -146,43 +141,211 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-tools" id="toc-research-tools" class="nav-link active" data-scroll-target="#research-tools">RESEARCH TOOLS</a></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">TUTORIALS</a></li>
+  <li><a href="#package-development" id="toc-package-development" class="nav-link" data-scroll-target="#package-development">PACKAGE DEVELOPMENT</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
+
+
+
+<section id="research-tools" class="level3">
+<h3 class="anchored" data-anchor-id="research-tools">RESEARCH TOOLS</h3>
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/scan360.jpg" class="img-fluid"></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="scan-360" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="scan-360">SCAN 360</h3>
+<p>SCAN 360 is a web application that provides 360<span class="math inline">\(^\circ\)</span> view of factors contributing to cancer risk where you live.</p>
+<div class="cntr-btn">
+<p><a href="https://www.scan360.com" class="btn" target="_blank">SCAN 360</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/hcs-mapping-tool.png" class="img-fluid"></p>
+</div>
+<section id="hcs-mapping-tool" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="hcs-mapping-tool">HCS Mapping Tool</h3>
+<p>The HCS Mapping Tool is a web application to overlay local count and rate data onto a map of communities participating in the Healthy Community Study.</p>
+<div class="cntr-btn">
+<p><a href="https://balise.shinyapps.io/HcsMappingTool/" class="btn" target="_blank">HCS Mapping Tool</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/neighborhood.png" class="img-fluid"></p>
+</div>
+<section id="neighborhood-profiles" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="neighborhood-profiles">Neighborhood Profiles</h3>
+<p>The Neighborhood Profiles is a web application to retrieve up-to-date demographic, economic, insurance, and disability information from the American Community Survey for neighborhoods in Miami-Dade County.</p>
+<div class="cntr-btn">
+<p><a href="https://wdefreit.shinyapps.io/profileapp/" class="btn" target="_blank">Neighborhood Profiles</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/disposal.png" class="img-fluid"></p>
+</div>
+<section id="public-disposal" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="public-disposal">Public Disposal</h3>
+<p>The Public Disposal is an interactive Tableau dashboard showing locations of public disposal boxes for controlled substances in New York.</p>
+<div class="cntr-btn">
+<p><a href="https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1" class="btn" target="_blank">Public Disposal</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+</section>
+<section id="tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials">TUTORIALS</h3>
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<!-- This is the container for the image and buttons container -->
+<div class="img-group">
+<p><img src="images/reproducible.png" class="img-fluid"></p>
+<!-- This is the container for the buttons -->
+<div class="btn-grp">
+<p><a href="https://distracted-poitras-2e23ff.netlify.app/#1" target="_blank" class="btn">Slides</a> <a href="https://derailment.netlify.app/" target="_blank" class="btn">Derailment</a></p>
 </div>
 </div>
+<!-- This is the container for the text group. It will have normal prose and some lorem text created within the code block. -->
+<section id="reproducible-research" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="reproducible-research">Reproducible Research</h3>
+<p>This is a tutorial with instructions on how to conduct reproducible research including configuring your machine for data science.</p>
+<div class="cntr-btn">
+<p><a href="https://vimeo.com/585821837" class="btn" target="_blank">Watch Video</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+</section>
+<section id="package-development" class="level3">
+<h3 class="anchored" data-anchor-id="package-development">PACKAGE DEVELOPMENT</h3>
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/rUM.png" class="img-fluid"></p>
+</div>
+<section id="rum" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="rum">rUM</h3>
+<p><strong>rUM</strong> is an R package for structuring reproducible academic manuscripts within a new RStudio project. Compose journal-worthy articles in either Quarto or RMarkdown and code your results into the analysis.</p>
+<div class="cntr-btn">
+<p><a href="https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/dope.png" class="img-fluid"></p>
+</div>
+<section id="dope" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="dope">DOPE</h3>
+<p><strong>DOPE</strong> is an R package to provide a structured vocabulary and look up details on drugs tracked by the DEA.</p>
+<div class="cntr-btn">
+<p><a href="https://ctn-0094.github.io/DOPE/" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/tidyredcap.png" class="img-fluid"></p>
+</div>
+<section id="tidyredcap" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="tidyredcap">tidyREDCap</h3>
+<p><strong>tidyREDCap</strong> is an R package with functions for processing REDCap data. <a href="https://projectredcap.org">REDCap (Research Electronic Data CAPture)</a> is a web-enabled application for building and managing surveys and databases developed at Vanderbilt University.</p>
+<div class="cntr-btn">
+<p><a href="https://raymondbalise.github.io/tidyREDCap/" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/ctnote.png" class="img-fluid"></p>
+</div>
+<section id="ctnote" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="ctnote">CTNote</h3>
+<p><strong>CTNote</strong> is an R package that exists as a comprehensive implementation of outcomes, treatments, and endpoints used in clinical trials to evaluate the efficacy of medication-assisted treatment of substance use disorders (SUDs).</p>
+<div class="cntr-btn">
+<p><a href="https://ctn-0094.github.io/CTNote/" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/ctn0094data.png" class="img-fluid"></p>
+</div>
+<section id="public.ctn0094data" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="public.ctn0094data">public.ctn0094data</h3>
+<p><strong>public.ctn0094data</strong> is an R package of harmonized/normalized data sets produced as part of the Clinical Trials Network (CTN) protocol number 0094. The data describe the experiences of care seeking individuals suffering from opioid use disorder (OUD). This is a US National Institute of Drug Abuse (NIDA) funded project; to learn more go to <a href="https://ctnlibrary.org/protocol/ctn0094/">https://ctnlibrary.org/protocol/ctn0094/</a>.</p>
+<div class="cntr-btn">
+<p><a href="https://ctn-0094.github.io/public.ctn0094data/" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
+<!------------------------------------------------------------->
+<div class="img-text">
+<div class="img-group">
+<p><img src="images/ctn0094extra.png" class="img-fluid"></p>
+</div>
+<section id="public.ctn0094extra" class="level3 text-grp">
+<h3 class="anchored" data-anchor-id="public.ctn0094extra">public.ctn0094extra</h3>
+<p><strong>public.ctn0094extra</strong> is an R package containing helper functions for the CTN-0094 data package public.ctn0094data and supplemental engineered / derived data sets.</p>
+<div class="cntr-btn">
+<p><a href="https://ctn-0094.github.io/public.ctn0094data/" class="btn" target="_blank">Download Package</a></p>
+</div>
+</section>
+</div>
+<!------------------------------------------------------------->
+<hr>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
