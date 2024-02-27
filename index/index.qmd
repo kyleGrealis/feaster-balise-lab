@@ -3,7 +3,6 @@ title: ""
 format: 
   html:
     page-layout: custom
-    embed-resources: true
 ---
 
 <!----- start hero panel -------->
