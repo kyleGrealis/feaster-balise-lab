@@ -42,7 +42,7 @@ tile <- function(tile_icon, tile_title, href) {
 ```{r}
 #| echo: false
 tags$div(
-  class = "btn-grp",
+  class = "tile-grp",
   tile(
     "people-roof", "CHARM Methods Core",
     href = "https://charm.miami.edu/index.html"
