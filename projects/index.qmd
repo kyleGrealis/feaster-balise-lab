@@ -1,9 +1,73 @@
 ---
-title: "About"
+title: "Our Projects"
 ---
 
-About this site
+::: { .projects-page }
 
-```{r}
-1 + 1
-```
+- FLORIDA NODE ALLIANCE OF THE DRUG ABUSE TREATMENT CLINICAL TRIALS NETWORK\
+    **Principal Investigators:** Jose Szapocznik, Daniel Feaster & Lisa Metsch \
+    **Funding Source:** National Institute on Drug Abuse, UG1-DA13720 \
+    **Project Period:** 12/01/2000 - 09/31/2025 
+    
+- A CLUSTER RCT TO INCREASE HIV TESTING IN SUBSTANCE USE TREATMENT PROGRAMS\
+    **Principal Investigators:** Daniel J. Feaster, Ph.D., Lisa R. Metsch, Ph.D., Jemima Frimpong, Ph.D. \
+    **Funding Source:** National Institute on Drug Abuse, R01 DA043130 \
+    **Project Period:** 09/01/2016 - 07/31/2024 
+    
+- A MULTI-SITE MULTI-SETTING RCT OF INTEGRATED HIV PREVENTION AND HCV CARE FOR PWID \
+    **Principal Investigators:** Daniel J. Feaster, Lisa Metsch & Julie Burneau \
+    **Funding Source:** National Institute on Drug Abuse, 1 RO1 DA045713 \
+    **Project Period:** 09/30/2017 - 07/31/2024 
+    
+- CHASE: AN INNOVATIVE COUNTY-LEVEL PUBLIC HEALTH RESPONSE TO THE OPIOID EPIDEMIC IN NEW YORK STATE (HEALING COMMUNITIES STUDY) \
+    **Principal Investigators:** Daniel J. Feaster, Nabila El-Bassel, Ed Nunes & Louisa Gilbert \
+    **Funding Source:** National Institute on Drug Abuse, 1 UM1DA049415 \
+    **Project Period:** 04/25/2019 - 04/30/2023 
+    
+- MONITORING MICROAGGRESSIONS AND ADVERSITIES TO GENERATE INTERVENTIONS FOR CHANGE (MMAGIC) FOR BLACK WOMEN LIVING WITH HIV \
+    **Principal Investigators:** Sannisha Dale \
+    **Funding Source:** National Institute on Mental Health, 1 R01MH121194 \
+    **Project Period:** 04/01/2020 - 03/31/2025 
+    
+- IMMUNE DYSFUNCTION IN HIV+ OPIOID USERS \
+    **Principal Investigators:** Savita Pahwa \
+    **Funding Source:** National Institute on Drug Abuse, 1 UM1DA051202\
+    **Project Period:** 04/15/2020 - 01/31/2025
+    
+- CULTURALLY FOCUSED HIV ADVANCEMENTS THROUGH NEXT GENERATION FOR EQUITY (CHANGE) TRAINING PROGRAM \
+    **Principal Investigators:** Feaster (Contact), Horigian, and Dale (Multiple PIs) \
+    **Funding Source:** National Institute on Mental Health, 1T32MH126772 \
+    **Project Period:** 04/01/2021 - 03/31/2026
+    
+- THE UMBRELLA OF HOPE MIAMI REENTRY SUMMIT \
+    **Principal Investigators:** Feaster (Contact) and Nowotny (Multiple PIs) \
+    **Funding Source:** Copeland Foundation \
+    **Project Period:** 04/01/2021 - 05/31/2023
+    
+- TELE-HARM REDUCTION FOR RAPID INITIATION OF ANTIRETROVIRALS IN PEOPLE WHO INJECT DRUGS: A RANDOMIZED CONTROLLED TRIAL \
+    **Principal Investigators:** Hansel Tookes \
+    **Funding Source:** National Institute on Drug Abuse, DP2-DA053720 \
+    **Project Period:** 05/01/2021 - 04/30/2025 
+    
+- THE CROWN STUDY: COMPREHENSIVE RESEARCH ON ORAL AND MENTAL HEALTH AMONG WOMEN \
+    **Principal Investigators:** Jones, Alcaide, Feaster & Parrish (MPIs) \
+    **Funding Source:** National Institute of Dental & Craniofacial Research, R01 DE032868 \
+    **Project Period:** 04/01/2023 - 03/31/2028 
+    
+- ESTIMATING MEDIATION AND MODERATION EFFECTS IN HIV CARE CONTINUUM INTERVENTION TRIALS FOR PEOPLE WHO USE DRUGS \
+    **Principal Investigators:** Pitipan (San Diego State University (Subcontract to Feaster) \
+    **Funding Source:** National Institute on Drug Abuse, R01 DA058311 \
+    **Project Period:** 04/01/2023 - 03/31/2028
+    
+- UNIVERSITY OF MIAMI CENTER FOR HIV/AIDS RESEARCH AND MENTAL HEALTH (ARC) \
+    **Principal Investigators:** Steven Safren \
+    **Funding Source:** National Institute of Mental Health, 1 P30 MH133399 \
+    **Project Period:** 04/01/2023 - 03/31/2028 
+    
+- IN PURSUIT OF A ONE-STOP SHOP: A HYBRID TYPE 1 EFFECTIVENESS-IMPLEMENTATION TRIAL OF COMPREHENSIVE TELE-HARM REDUCTION FOR PEOPLE WHO INJECT DRUGS \
+    **Principal Investigators:** Hansel Tookes & Tyler Bartholomew (MPIs) \
+    **Funding Source:** National Institute on Drug Abuse, R01-DA058352 \
+    **Project Period:** 06/01/2023 - 03/31/2028 
+    
+
+:::

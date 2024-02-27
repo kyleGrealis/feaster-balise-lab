@@ -97,7 +97,7 @@ $font-size-base: 1.1rem; // increasing default by 10%; 1rem = default value
 }
 
 
-// Button group on index.qmd
+// Button group on index.qmd --------------------------------------------
 div.btn-grp {
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
@@ -152,7 +152,7 @@ div.btn-grp {
 }
 
 
-
+// Home page image and text blocks -----------------------------------
 .home-wrapper {
   display: flex;
   flex-direction: row;
@@ -250,10 +250,21 @@ div.btn-grp {
 } // .home-wrapper
 
 
+// Projects page -------------------------------------------------------
+.projects-page {
+  
+  p {
+    font-size: 0.9em;
+  }
+  
+  strong {
+    color: black;
+    font-weight: 800;
+  }
+}
 
 
-
-// Home page footer
+// Home page footer ----------------------------------------------------
 .um-footer {
   display: grid;
   grid-template-rows: auto auto;
