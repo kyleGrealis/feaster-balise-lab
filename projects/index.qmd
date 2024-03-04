@@ -1,6 +1,9 @@
 ---
-title: "Our Projects"
+title: ""
+toc: false
 ---
+
+## Current Projects
 
 ::: { .projects-page }
 
