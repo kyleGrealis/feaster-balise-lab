@@ -205,6 +205,14 @@ body {
     }
   }
   
+  h2 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #333333;
+    text-shadow: $bg-light-shadow;
+    border-bottom: none; // Quarto puts border bottom by default
+  }
+  
   .card-info {
     display: flex;
     flex-direction: column;
@@ -232,19 +240,48 @@ body {
         font-size: 0.75em;
       }
     }
+  }
   
-    h2 {
-      font-weight: 600;
-      font-size: 2em;
-      color: #333333;
-      text-shadow: $bg-light-shadow;
-      border-bottom: none; // Quarto puts border bottom by default
+   @media screen and (max-width: 975px) {
+    flex-direction: column;
+    
+    // this moves the image below the name and interest block 
+    .card-info {
+      order: 2;
     }
-  } // .card-info
+
+    .image-wrapper {
+      order: 1;
+      width: 60%;
+    }
+    
+    h2 {
+      order: 0;
+    }
+  }
 } 
+
 .special-card {
   border-bottom: none;
-} // .home-wrapper
+  
+  @media screen and (max-width: 975px) {
+    flex-direction: column;
+    
+    // this moves the image below the name and interest block 
+    .card-info {
+      order: 2;
+    }
+
+    .image-wrapper {
+      order: 1;
+      width: 60%;
+    }
+    
+    h2 {
+      order: 0;
+    }
+  }
+}
 
 
 // People page -------------------------------------------------------
