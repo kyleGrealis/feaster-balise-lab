@@ -13,7 +13,7 @@ format:
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/scan360.jpg)
+[![](images/scan360.jpg)](https://www.scan360.com){target="_blank" }
 
 :::
 
@@ -39,7 +39,7 @@ SCAN 360 is a web application that provides 360$^\circ$ view of factors contribu
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/hcs-mapping-tool.png)
+[![](images/hcs-mapping-tool.png)](https://balise.shinyapps.io/HcsMappingTool/){target="_blank" }
 
 :::
 
@@ -65,7 +65,7 @@ The HCS Mapping Tool is a web application to overlay local count and rate data o
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/neighborhood.png)
+[![](images/neighborhood.png)](https://wdefreit.shinyapps.io/profileapp/){target="_blank" }
 
 :::
 
@@ -91,7 +91,7 @@ The Neighborhood Profiles is a web application to retrieve up-to-date demographi
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/disposal.png)
+[![](images/disposal.png)](https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1){target="_blank" }
 
 :::
 
@@ -123,7 +123,7 @@ The Public Disposal is an interactive Tableau dashboard showing locations of pub
 
 <!-- This is the container for the image and buttons container -->
 ::: { .img-group }
-![](images/reproducible.png)
+[![](images/reproducible.png)](https://vimeo.com/585821837){target="_blank" }
 
 <!-- This is the container for the buttons -->
 ::: { .btn-grp }
@@ -159,7 +159,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/rUM.png)
+[![](images/rUM.png)](https://public.tableau.com/app/profile/wayne.defreitas/viz/HCS_PUBDISP_Final20210222/Dashboard1){target="_blank" }
 
 :::
 
@@ -184,7 +184,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/dope.png)
+[![](images/dope.png)](https://ctn-0094.github.io/DOPE/){target="_blank" }
 
 :::
 
@@ -209,7 +209,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/tidyredcap.png)
+[![](images/tidyredcap.png)](https://raymondbalise.github.io/tidyREDCap/){target="_blank" }
 
 :::
 
@@ -235,7 +235,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/ctnote.png)
+[![](images/ctnote.png)](https://ctn-0094.github.io/CTNote/){target="_blank" }
 
 :::
 
@@ -261,7 +261,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/ctn0094data.png)
+[![](images/ctn0094data.png)](https://ctn-0094.github.io/public.ctn0094data/){target="_blank" }
 
 :::
 
@@ -287,7 +287,7 @@ This is a tutorial with instructions on how to conduct reproducible research inc
 ::: { .img-text }
 
 ::: { .img-group }
-![](images/ctn0094extra.png)
+[![](images/ctn0094extra.png)](https://ctn-0094.github.io/public.ctn0094data/){target="_blank" }
 
 :::
 
